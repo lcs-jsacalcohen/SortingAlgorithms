@@ -112,4 +112,25 @@ numbers
  */
 
 // Begin your implementation below...
+// start here:
+var cards : [Int] = []
+//for _ in 1...7 {
+//    cards.append(random(between: 1, and: 14))
+//}
+cards.append(1)
+cards.append(3)
+cards.append(6)
+cards.append(34)
+cards.append(532)
+cards.append(53)
+cards.append(23)
+
+cards.count
+
+//keep looping until the list is empty
+while cards.count > 0 {
+    _ = cards[cards.count - 1]
+    cards.remove(at: cards.count - 1) //remove number at end of erray
+}
+
 
